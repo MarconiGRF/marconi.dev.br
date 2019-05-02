@@ -1,4 +1,4 @@
-## Versão 2
+## Version 2.0
 
 This version of my website was now made with HTML+CSS and ReactJS knowledge by me.
 
