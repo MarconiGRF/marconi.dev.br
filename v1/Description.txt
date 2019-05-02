@@ -1,1 +1,2 @@
-This version of my website was made only and purely using HTML + CSS knowledge by me, started in 06/04/2018. 
+This version of my website was now made with HTML+ CSS knowledge by me.
+Its development started in 06/04/2018. 

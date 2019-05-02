@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+header {
+  float: left;
+  flex-wrap: wrap;
+  font-family: 'Fira Code Regular', monospace;
+  font-weight: bold;
+  color: rgb(201, 224, 238);
+}
+
+header h1{
+  line-height: 0.8;
+  text-align: center;
+  font-size: 30px;
+}
+
+header h3{
+  font-size: 15px;
+  text-align: center;
+  color: rgb(201, 224, 238);
+}
+
+a{
+  color: rgba(0, 0, 0, 0);
+}
+
+.header-css{
+  position: fixed;
+  width: 100%;
+  height: 96px;
+  top: 0;
+  left: 0;
+  padding: 0.5em 1.5em 0.5em 1.5em;
+  background-image: linear-gradient(#37877b 10px,  #336280);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid rgb(46, 90, 117);
+}
+
+.logo-adeq{
+  display: block;
+  float: left;
+  position: sticky;
+  height: 100%;
+  border-radius: 50%;
+  align-content: left;
+}
+
+.content{
+  background-color: rgb(10, 72, 110);
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+}
+
+.content-disposition{
+  display: flex;
+  margin: 3% auto 0;
+  height: calc(100vh - 96px);
+  max-width: 50%;
+  align-items: center;
+  text-align: center;
+}
+
+.image-content{
+  display: inline-block;
+  width: 50%;
+  transition: color 0.3s;
+  color: black;
+  box-sizing: border-box;
+}
+
+.labels{
+  display: block;
+  margin: 1em 0;
+  font-family: 'Fira Code Light', monospace;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+.column {
+  width: 8.33%;
+  float: left;
+}
+
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css);

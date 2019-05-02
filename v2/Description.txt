@@ -1,0 +1,2 @@
+This version of my website was now made with HTML+CSS and ReactJS knowledge by me.
+Its development started in 01/05/2018. 
