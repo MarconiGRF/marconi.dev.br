@@ -19,6 +19,4 @@ const languageChange = ({ nowLang }) => {
  //   }, false)
 }
 
-
-
 export default languageChange
