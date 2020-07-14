@@ -6,8 +6,8 @@ class Main extends React.Component {
     render() {
         return (
             <main>
-                <Section />
-			</main>
+                <Section currentLanguage={this.props.currentLanguage} />
+            </main>
         )
     }
 }
