@@ -160,7 +160,7 @@ a {
   .content-disposition {
     flex-direction: row;
     justify-content: space-evenly;
-    width: 100vw;
+    width: 50vw;
   }
 
   .image-content {
@@ -179,7 +179,7 @@ a {
   }
 
   .subdescription {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .content {
