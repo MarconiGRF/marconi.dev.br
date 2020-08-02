@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 body{
   background-color: rgb(10, 72, 110);
+  height: 100%;
 }
 
 header {
@@ -18,8 +21,6 @@ a {
 
 .header {
   z-index: 1;
-  position: fixed;
-  width: 100%;
   height: 6rem;
   top: 0;
   left: 0;
@@ -56,7 +57,6 @@ a {
 
 .logo-adeq {
   display: block;
-  position: sticky;
   height: 100%;
   border-radius: 50%;
 }
@@ -68,18 +68,19 @@ a {
 }
 
 .content {
-  position: absolute;
   align-items: center;
-  height: 100%;
-  width: 100%;
+  height: calc(100vh - 12.05rem);
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .content-disposition {
   width: 50%;
-  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .image-content {
@@ -101,7 +102,6 @@ a {
   display: flex;
   flex-direction: row;
   vertical-align: middle;
-  position: fixed;
   padding: 0.5em 0.5em 0 0.5em;
   bottom: 0;
   height: 5rem;
@@ -122,14 +122,14 @@ a {
 }
 
 .footer-lefter {
-  width: 50%;
+  width: 70%;
   display: flex;
   align-items: center;
   text-align: left;
 }
 
 .footer-righter {
-  width: 50%;
+  width: 70%;
   text-align: right;
 }
 
@@ -152,101 +152,60 @@ a {
   justify-content: flex-end;
 }
 
-@media only screen and (min-width: 480px) and (max-width: 600px) {
-  .header {
-    width: auto;
-    position: static;
-    height: 5rem;
-    padding: 0.3em 1em;
-  }
-
+@media only screen and (min-width: 480px) and (max-width: 900px) {
   .content {
-    position: static;
-    height: calc(100vh - 9.6rem);
-  }
-
-  .header-name {
-    font-size: 28px;
-    line-height: 0.3;
-  }
-
-  .image-content {
-    width: 40%;
+    flex-direction: column;
   }
 
   .content-disposition {
-    margin: 2.5rem 2rem;
-    width: 100%;
-    height: 40%;
-    padding: 0.7rem 1.3rem;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
   }
 
-  .subdescription {
-    font-size: 14px;
-  }
-
-  .labels {
-    font-size: 20px;
-  }
-
-  .footer-content {
-    position: static;
-    height: 4rem;
-    width: auto;
-  }
-
-  .footer-text-p {
-    font-size: 14px;
-  }
-
-  .footer-image {
-    width: 2.2rem;
+  .image-content {
+    width: 20%;
   }
 }
 
 @media only screen and (max-width: 480px) {
   .header {
-    width: auto;
-    position: static;
     height: 5rem;
-    padding: 0.3em 1em;
-  }
-
-  .content {
-    position: static;
   }
 
   .header-name {
     font-size: 24px;
-    line-height: 0.3;
-  }
-
-  .content-disposition {
-    margin: 1.5rem 0.5rem;
-    width: 100%;
-    height: 40%;
-    padding: 0;
+    margin: 0.7rem auto;
   }
 
   .subdescription {
-    font-size: 12px;
+    font-size: 13px;
+  }
+
+  .content {
+    flex-direction: column;
+    height: calc(100vh - 10.05rem);
+  }
+
+  .content-disposition {
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90vw;
+  }
+
+  .image-content {
+    width: 19%;
   }
 
   .labels {
-    font-size: 22px;
-  }
-
-  .footer-content {
-    position: static;
-    height: 4rem;
-    width: auto;
-  }
-
-  .footer-text-p {
-    font-size: 10px;
+    font-size: 28px;
   }
 
   .footer-image {
-    width: 2.2rem;
+    width: 2.5rem;
+  }
+
+  .footer-content {
+    height: 4rem;
   }
 }
