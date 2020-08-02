@@ -10,16 +10,20 @@ class Header extends React.Component {
             info: {}
         }
 
-        this.init();
+        this.init(props);
     }
 
-    init() {
-        if (this.props.currentLanguage === 'pt') {
+    init(props) {
+        if (props.currentLanguage === 'pt') {
             this.state.info = Info.pt.common;
         }
         else {
             this.state.info = Info.en.common;
         }
+    }
+
+    componentWillReceiveProps(newProps) {
+        this.init(newProps);
     }
 
     render() {

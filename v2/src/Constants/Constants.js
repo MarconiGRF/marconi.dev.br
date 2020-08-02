@@ -2,7 +2,7 @@ export const Info = {
     en: {
         common: {
             name: "Marconi Gomes",
-            gradinfo: "Majoring of Computer Science - Federal University of Pernambuco",
+            gradinfo: "Undergradute of Computer Science - Federal University of Pernambuco",
             github: "Github Profile",
             cv: "Curriculum Vitae"
         },
