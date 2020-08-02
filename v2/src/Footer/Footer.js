@@ -44,20 +44,19 @@ class Footer extends React.Component {
             <footer className="footer-content">
                 <div className="footer-lefter" >
                     <a href={ this.state.links.mail }>
-                        <img src={maillogo} alt={ this.state.alt.mail } />
+                        <img className="footer-image" src={maillogo} alt={ this.state.alt.mail } />
                     </a>
                     <a href={ this.state.links.linkedin }>
-                        <img src={inlogo} alt={ this.state.alt.in } />
+                        <img className="footer-image" src={inlogo} alt={ this.state.alt.in } />
                     </a>
                     <a href={ this.state.links.facebook }>
-                        <img src={fblogo} alt={ this.state.alt.fb } />
+                        <img className="footer-image" src={fblogo} alt={ this.state.alt.fb } />
                     </a>
                 </div>
                 <div className="footer-righter">
                     <a alt={ this.state.alt.lgg } href="#" onClick={this.handleLangChange}>
-                        <img src={flag} alt={ this.state.alt.flag } />
+                        <img className="footer-image" src={flag} alt={ this.state.alt.flag } />
                     </a>
-                    <h3 className="footer-text-p">{ this.state.info.about }</h3>
                 </div>
             </footer>
         )

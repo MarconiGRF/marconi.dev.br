@@ -4,8 +4,7 @@ export const Info = {
             name: "Marconi Gomes",
             gradinfo: "Majoring of Computer Science - Federal University of Pernambuco",
             github: "Github Profile",
-            cv: "Curriculum Vitae",
-            about: "Made by Marconi Gomes, powered by ReactJS."
+            cv: "Curriculum Vitae"
         },
         alt: {
             pp: "Profile picture",
@@ -23,8 +22,7 @@ export const Info = {
             name: "Marconi Gomes",
             gradinfo: "Bacharelando em  Ciência da Computação - Universidade Federal de pernambuco",
             github: "Perfil do Github",
-            cv: "Currículo Vitae",
-            about: "Feito por Marconi Gomes com uso de ReactJS."
+            cv: "Currículo Vitae"
         },
         alt: {
             pp: "Foto de perfil",

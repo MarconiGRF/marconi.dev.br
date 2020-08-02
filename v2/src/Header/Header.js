@@ -25,10 +25,10 @@ class Header extends React.Component {
     render() {
         return (
             <header className="header flex">
-                <div class="pp">
+                <div className="pp">
                     <img className="logo-adeq" src={logo} alt="" />
                 </div>
-                <div class="description">
+                <div className="description">
                     <h1 className="header-name">{this.state.info.name}</h1>
                     <h3 className="subdescription">{this.state.info.gradinfo}</h3>
                 </div>
