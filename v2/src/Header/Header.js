@@ -24,11 +24,13 @@ class Header extends React.Component {
 
     render() {
         return (
-            <header className="header-css">
-                <img className="logo-adeq" src={logo} alt="" />
-                <div>
+            <header className="header flex">
+                <div class="pp">
+                    <img className="logo-adeq" src={logo} alt="" />
+                </div>
+                <div class="description">
                     <h1 className="header-name">{this.state.info.name}</h1>
-                    <h3 className="header-entry">{this.state.info.gradinfo}</h3>
+                    <h3 className="subdescription">{this.state.info.gradinfo}</h3>
                 </div>
             </header>
         )
