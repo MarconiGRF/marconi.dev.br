@@ -4,7 +4,8 @@ export const Info = {
             name: "Marconi Gomes",
             gradinfo: "Undergradute of Computer Science - Federal University of Pernambuco",
             github: "Github Profile",
-            cv: "Curriculum Vitae"
+            cv: "Curriculum Vitae",
+            cvLink: "https://drive.google.com/file/d/1zP8yXvVlXskDO9nr7u-7ov2LZTvNj2MW/view?usp=sharing"
         },
         alt: {
             pp: "Profile picture",
@@ -22,7 +23,8 @@ export const Info = {
             name: "Marconi Gomes",
             gradinfo: "Bacharelando em  Ciência da Computação - Universidade Federal de pernambuco",
             github: "Perfil do Github",
-            cv: "Currículo Vitae"
+            cv: "Currículo Vitae",
+            cvLink: "https://drive.google.com/file/d/1DUlhsxcMKGbp0t2cK_MaTXcXNgKQyBkA/view?usp=sharing"
         },
         alt: {
             pp: "Foto de perfil",
@@ -39,7 +41,6 @@ export const Info = {
 
 export const Links = {
     github: "https://github.com/MarconiGRF",
-    cv: "https://drive.google.com/file/d/1bFDezakxHaQVl46YuV7Set8CIuTJpDvM/view?usp=sharing",
     mail: "mailto:mgrf@cin.ufpe.br",
     linkedin: "https://www.linkedin.com/in/MarconiGRF",
     facebook: "https://www.facebook.com/itsmarconi"

@@ -39,7 +39,7 @@ class Section extends React.Component {
                     <img src={gthb} className="image-content" alt={this.state.alt.github}></img>
                     <h1 className="labels">{this.state.info.github}</h1>
                 </a>
-                <a className="content-disposition" href={this.state.links.cv}>
+                <a className="content-disposition" href={this.state.info.cvLink}>
                     <img src={cv} className="image-content" alt={this.state.alt.cv}></img>
                     <h1 className="labels">{this.state.info.cv}</h1>
                 </a>
