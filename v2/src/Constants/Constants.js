@@ -5,7 +5,8 @@ export const Info = {
             gradinfo: "Undergradute of Computer Science - Federal University of Pernambuco",
             github: "Github Profile",
             cv: "Curriculum Vitae",
-            cvLink: "https://drive.google.com/file/d/1zP8yXvVlXskDO9nr7u-7ov2LZTvNj2MW/view?usp=sharing"
+            cvLink: "https://drive.google.com/file/d/1zP8yXvVlXskDO9nr7u-7ov2LZTvNj2MW/view?usp=sharing",
+            linkedinLink: "https://www.linkedin.com/in/marconigrf/?locale=en_US"
         },
         alt: {
             pp: "Profile picture",
@@ -24,7 +25,8 @@ export const Info = {
             gradinfo: "Bacharelando em  Ciência da Computação - Universidade Federal de pernambuco",
             github: "Perfil do Github",
             cv: "Currículo Vitae",
-            cvLink: "https://drive.google.com/file/d/1DUlhsxcMKGbp0t2cK_MaTXcXNgKQyBkA/view?usp=sharing"
+            cvLink: "https://drive.google.com/file/d/1DUlhsxcMKGbp0t2cK_MaTXcXNgKQyBkA/view?usp=sharing",
+            linkedinLink: "https://www.linkedin.com/in/marconigrf/?locale=pt_BR"
         },
         alt: {
             pp: "Foto de perfil",

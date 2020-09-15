@@ -47,7 +47,7 @@ class Footer extends React.Component {
                     <a href={ this.state.links.mail }>
                         <img className="footer-image" src={maillogo} alt={ this.state.alt.mail } />
                     </a>
-                    <a href={ this.state.links.linkedin }>
+                    <a href={ this.state.info.linkedinLink }>
                         <img className="footer-image" src={inlogo} alt={ this.state.alt.in } />
                     </a>
                     <a href={ this.state.links.facebook }>
