@@ -2,11 +2,15 @@
 	<section class="content">
 		<a class="content-disposition" :href="github.link" target="_blank">
 			<img src="../assets/icons/github.png" class="image-content" :alt="github.alt"/>
-				<h1 class="labels">{{ $t('common.github') }}</h1>
+      <h1 class="labels">{{ $t('common.github') }}</h1>
 		</a>
 		<a class="content-disposition" :href="cv.link" target="_blank">
 			<img src="../assets/icons/cv.png" class="image-content" :alt="cv.alt"/>
-				<h1 class="labels">{{ $t('common.cv') }}</h1>
+      <h1 class="labels">{{ $t('common.cv') }}</h1>
+		</a>
+    <a class="content-disposition" href="#">
+			<img src="../assets/icons/projects.png" class="image-content" :alt="projects.alt"/>
+      <h1 class="labels">{{ $t('common.projects') }}</h1>
 		</a>
 	</section>
 </template>
@@ -23,7 +27,10 @@ export default {
 			cv: {
 				link: this.$t('links.cv'),
 				alt: this.$t('alt.cv')
-			}
+			},
+      projects: {
+        alt: this.$t('alt.projects')
+      }
 		}
 	},
 	methods: {
@@ -47,15 +54,26 @@ export default {
 }
 
 .content-disposition {
-  width: 50%;
+  width: 33%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+.image-content:hover {
+  transition: top .17s ease-in-out, transform .17s ease-in-out;
+  top: -10px;
+  transform: rotate(-5deg);
+}
+
 .image-content {
+  transition: top .17s ease-in-out, transform .17s ease-in-out;
+  position: relative;
+  transform: rotate(0deg);
+  top: 0px;
   width: 30%;
   box-sizing: border-box;
+  background: transparent;
 }
 
 .labels {
@@ -75,12 +93,17 @@ export default {
 
   .content-disposition {
     flex-direction: row;
-    justify-content: space-evenly;
-    width: 50vw;
+    justify-content: flex-start;
+    width: 55vw;
   }
 
   .image-content {
+    margin-right: 1rem;
     width: 20%;
+  }
+
+  .labels {
+    font-size: 28px;
   }
 }
 
@@ -92,12 +115,23 @@ export default {
 
   .content-disposition {
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     width: 90vw;
   }
 
   .image-content {
     width: 19%;
+    margin-right: 1rem;
+  }
+
+  .labels {
+    font-size: 25px;
+  }
+
+  .image-content:hover {
+    transition: none;
+    transform: rotate(0deg);
+    top: 0px;
   }
 }
 </style>

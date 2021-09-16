@@ -1,7 +1,7 @@
 <template>
 		<header class="header flex">
 				<div class="pp">
-						<img class="logo-adeq" src="../assets/icons/logo.jpg" :alt="pp.alt" />
+						<img class="logo-adeq" src="../assets/icons/pp.png" :alt="pp.alt" />
 				</div>
 				<div class="description">
 						<h1 class="header-name">{{ $t('common.name') }}</h1>
