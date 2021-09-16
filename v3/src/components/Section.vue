@@ -80,6 +80,7 @@ export default {
   display: block;
   margin: 1em 0;
   font-family: 'Raleway';
+  -webkit-font-smoothing: antialised;
   font-size: 32px;
   font-weight: bold;
   text-align: center;

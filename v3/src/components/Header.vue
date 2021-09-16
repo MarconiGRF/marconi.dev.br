@@ -48,6 +48,7 @@ header {
 
 .header-name {
 	font-family: 'Raleway';
+	-webkit-font-smoothing: antialised;
 	margin: 1rem auto;
 	width: 100%;
 	font-weight: bold;
@@ -62,6 +63,7 @@ header {
 
 .subdescription {
 	font-family: 'Raleway';
+	-webkit-font-smoothing: antialised;
 	font-size: 15px;
 	margin: 0.5rem auto;
 	text-align: center;
