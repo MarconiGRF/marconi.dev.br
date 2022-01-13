@@ -5,7 +5,8 @@ export const messages = {
             gradinfo: "Computer Science Undergradute - Federal University of Pernambuco",
             github: "Github Profile",
             cv: "Curriculum Vitae",
-            projects: "Projects"
+            projects: "Projects",
+            back: "Back"
         },
         links: {
             cv: "https://drive.google.com/file/d/1zP8yXvVlXskDO9nr7u-7ov2LZTvNj2MW/view?usp=sharing",
@@ -29,7 +30,8 @@ export const messages = {
             gradinfo: "Bacharelando em  Ciência da Computação - Universidade Federal de pernambuco",
             github: "Perfil do Github",
             cv: "Currículo Vitae",
-            projects: "Projetos"
+            projects: "Projetos",
+            back: "Voltar"
         },
         links: {
             cv: "https://drive.google.com/file/d/1DUlhsxcMKGbp0t2cK_MaTXcXNgKQyBkA/view?usp=sharing",
