@@ -5,7 +5,7 @@
 				</div>
 				<div class="description">
 						<h1 class="header-name">{{ $t('common.name') }}</h1>
-						<h3 class="subdescription">{{ $t('common.gradinfo') }}</h3>
+						<h3 class="subdescription">{{ $t('common.gradInfo') }}</h3>
 				</div>
 		</header>
 </template>

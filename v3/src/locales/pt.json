@@ -1,0 +1,25 @@
+{
+  "common": {
+    "name": "Marconi Gomes",
+    "gradInfo": "Bacharelando em  Ciência da Computação - Universidade Federal de pernambuco",
+    "github": "Perfil do Github",
+    "cv": "Currículo Vitae",
+    "projects": "Projetos",
+    "back": "Voltar"
+  },
+  "links": {
+    "cv": "https://drive.google.com/file/d/1DUlhsxcMKGbp0t2cK_MaTXcXNgKQyBkA/view?usp=sharing",
+    "linkedin": "https://www.linkedin.com/in/marconigrf/?locale=pt_BR"
+  },
+  "alt": {
+    "pp": "Foto de perfil",
+    "github": "Logotipo do Github",
+    "cv": "Ícone de documento representando currículo",
+    "mail": "Ícone de '@' indicando contato via e-mail",
+    "projects": "Lamp symbol representing projects",
+    "in": "Logotipo do Linkedin",
+    "fb": "Logotipo do Facebook",
+    "lgg": "Alternar idioma",
+    "flag": "Idioma atual: Português - BR"
+  }
+}

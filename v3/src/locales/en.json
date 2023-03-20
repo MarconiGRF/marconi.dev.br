@@ -1,0 +1,25 @@
+{
+  "common": {
+    "name": "Marconi Gomes",
+    "gradInfo": "Computer Science Undergradute - Federal University of Pernambuco",
+    "github": "Github Profile",
+    "cv": "Curriculum Vitae",
+    "projects": "Projects",
+    "back": "Back"
+  },
+  "links": {
+    "cv": "https://drive.google.com/file/d/1zP8yXvVlXskDO9nr7u-7ov2LZTvNj2MW/view?usp=sharing",
+    "linkedin": "https://www.linkedin.com/in/marconigrf/?locale=en_US"
+  },
+  "alt": {
+    "pp": "Profile picture",
+    "github": "Github Logo",
+    "cv": "Document Icon representing curriculum",
+    "mail": "'@' symbol representing e-mail contact",
+    "projects": "Lamp symbol representing projects",
+    "in": "Linkedin Logo",
+    "fb": "Facebook logo",
+    "lgg": "Switch language",
+    "flag": "Current language: English - US"
+  }
+}
